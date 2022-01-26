@@ -1,7 +1,6 @@
 package com.grechich.com.abstractFactory;
 
 import com.grechich.com.abstractFactory.factories.ColaDrinksFactory;
-import com.grechich.com.abstractFactory.factories.DrinksFactory;
 import com.grechich.com.abstractFactory.factories.PepsiDrinksFactory;
 
 public class Main {
