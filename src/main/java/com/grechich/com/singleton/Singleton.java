@@ -1,11 +1,11 @@
 package com.grechich.com.singleton;
 
-public class Singleton {
-    private Singleton singleton;
+public final class Singleton {
+    private static Singleton singleton;
     private Singleton(){
     }
 
-    public Singleton getSingleton(){
+    public static Singleton getSingleton(){
         if (singleton == null){
             singleton = new Singleton();
         }
